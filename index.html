@@ -20,39 +20,37 @@
     </head>
 
     <body >
-        <header   >
+        <header >
             <h1 style="text-align: center;">Atlas</h1>
-            <div class="dropdown dropend p-5 my-1" >
-            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                Vyberte kontinent
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item"  href="#" data-continent="africa">Afrika</a></li>
-                <li><a class="dropdown-item" href="#" data-continent="asia">Asie</a></li>
-                <li><a class="dropdown-item" href="#" data-continent="europe">Evropa</a></li>
-                <li><a class="dropdown-item" href="#" data-continent="americas">Sev. a jíž. amerika</a></li>
-                <li><a class="dropdown-item" href="#" data-continent="oceania">Oceánie</a></li>
-            </ul>
-        </div>
-        </header>
-        <main class="conteiner-fluid bg-dark">
             
-                
-            <div class="row" id="staty" >
+        </header>
+        <main class="conteiner-fluid m-2">
+            <div class="dropdown dropend">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Vyberte kontinent
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#" data-continent="africa">Afrika</a></li>
+                    <li><a class="dropdown-item" href="#" data-continent="asia">Asie</a></li>
+                    <li><a class="dropdown-item" href="#" data-continent="europe">Evropa</a></li>
+                    <li><a class="dropdown-item" href="#" data-continent="americas">Ameriky</a></li>
+                    <li><a class="dropdown-item" href="#" data-continent="oceania">Oceánie</a></li>
+                </ul>
+            </div>
+            <div class="row" id="staty">
 
             </div>
         </main>
         <footer>
-            
-        </footer>
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2 id="modal-title"></h2>
-                <img id="modal-flag" src="" alt="Flag">
-                <p id="modal-info"></p>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 id="modal-title"></h2>
+                    
+                    <p id="modal-info"></p>
+                </div>
             </div>
-        </div>
+        </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
